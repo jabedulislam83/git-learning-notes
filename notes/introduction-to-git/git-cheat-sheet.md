@@ -2,6 +2,7 @@
 
 > A quick reference guide for the most commonly used Git commands learned from the **Introduction to Git** course.
 
+> **Note:** This cheat sheet summarizes the Git commands covered in the **Introduction to Git** course. It is intended as a quick reference for practice and daily use. More advanced commands will be added as I complete the **Intermediate Git** course.
 ---
 
 # Repository

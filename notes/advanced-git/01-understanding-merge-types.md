@@ -266,7 +266,9 @@ git merge feature
 
 git merge --ff-only feature
 
-git merge --no-ff feature
+git merge --no-ff 
+
+git merge etl-update --no-ff --no-edit
 ```
 
 ---

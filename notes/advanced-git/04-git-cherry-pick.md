@@ -483,20 +483,23 @@ This cancels the ongoing Cherry-Pick operation and attempts to return the branch
 # Cherry-Pick Conflict Workflow
 
 ```text
-git cherry-pick <hash>
-          │
-          ▼
-      Conflict?
-       /      \
-     No        Yes
-     │          │
-     ▼          ▼
- Complete    Resolve
-                │
-             git add
-                │
-                ▼
-      git cherry-pick --continue
+git cherry-pick <commit>
+        ↓
+      CONFLICT
+        ↓
+nano filename
+        ↓
+Edit conflict
+        ↓
+Remove conflict markers
+        ↓
+Ctrl + O → Enter
+        ↓
+Ctrl + X
+        ↓
+git add .
+        ↓
+git cherry-pick --continue
 ```
 
 To cancel:

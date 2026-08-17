@@ -1,10 +1,5 @@
-অবশ্যই। এবার এটাকে আগের **`05-merge-conflicts.md`**-এর মতোই clean, professional এবং GitHub-friendly Markdown format-এ সাজাচ্ছি।
 
-তোমার project structure অনুযায়ী এই ফাইলটি হবে:
 
-```text
-08-git-worktrees.md
-```
 
 ````markdown
 # Git Worktrees
